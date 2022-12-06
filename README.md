@@ -1,2 +1,2 @@
 # Lightaphone
-Code for the Light-a-phone
+Code for the Lightaphone
