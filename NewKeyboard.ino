@@ -128,27 +128,6 @@ bool getPlayerInput(int n) {
   return isCorrect;
 }
 
-//// Plays the note corresponding to the button at pin keyVal
-//void playNote(int keyVal) {
-//  if (keyVal == 0) {
-//    noTone(buzzer);
-//    for (int i = 0; i < numKeys; i++) {
-//      digitalWrite(leds[i], LOW);
-//    }
-//  }
-//  else {
-//    for (int i = 0; i < numKeys; i++) {
-//      if (keyVal == buttons[i]) {
-//        tone(buzzer, notes[i]);
-//        digitalWrite(leds[i], HIGH);
-//        delay(200);
-//        noTone(buzzer);
-//        digitalWrite(leds[i], LOW);
-//      }
-//    }
-//  }
-//}
-
 // Resets all lights and the buzzer.
 void resetBoard() {
   noTone(buzzer);
